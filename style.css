@@ -1,5 +1,5 @@
 :root{
-    --primary-color: rgb(128, 218, 240);
+    --primary-color: rgb(13, 170, 209);
     --secondary-color: rgb(170, 167, 167);
     --tertiary-color: rgb(0, 0, 0);
     --quartiary-color: rgba(0, 0, 0, 0.185)
@@ -63,7 +63,7 @@ body{
 }
 
 .formSubmit{
-    text-transform: uppercase;
+    color: black;
     font-weight: bold;
     display: block;
     margin: 30px auto;
@@ -72,8 +72,11 @@ body{
     width: 200px;
     height: 50px;
     font-size: 17px;
-    color: black;
+    
 }
+ .formSubmit:hover{
+    cursor: pointer;
+ }
 
 #totaltip{
     font-size: 20px;
@@ -91,7 +94,7 @@ body{
 
 #agradecimento{
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     color: rgba(1, 39, 255, 0.582);
+     color: black;
      font-size: 25px;
      margin-bottom: 10px;
 }
@@ -101,4 +104,6 @@ body{
     text-align: center;
     font-style: italic;
 }
+
+/* Teste */
 
